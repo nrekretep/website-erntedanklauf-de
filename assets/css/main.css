@@ -2815,14 +2815,12 @@ input, select, textarea {
 					width: 80px;
 					height: 60px;
 					z-index: 1001;
-					font-family: 'Font Awesome 5 Free' !important;
 				}
 
 					#titleBar a.toggle:before {
 						display: inline-block;
 						text-decoration: none;
 						font-style: normal;
-						/*font-weight: normal;*/
 						-webkit-font-smoothing: antialiased;
 						-moz-osx-font-smoothing: grayscale;
 						position: absolute;
@@ -2831,16 +2829,15 @@ input, select, textarea {
 						background: #b1ddab;
 						width: 44px;
 						height: 44px;
-						content: "\f000";
+						content: "\f0c9";
 						color: #fff;
 						text-align: center;
 						line-height: 44px;
 						font-size: 20px;
-						font-family: 'Font Awesome 5 Free' !important;
-					}
-
-					a.toggle {
-						font-family: 'Font Awesome 5 Free' !important;
+						font-family: 'Font Awesome 5 Free';
+						font-weight: 900;
+						src: url("../webfonts/fa-solid-900.eot");
+						src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }				  
 					}
 
 					#titleBar .toggle:active:before {
