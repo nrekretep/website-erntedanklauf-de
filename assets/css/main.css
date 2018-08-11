@@ -2491,7 +2491,7 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner2.jpg");
+		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: top left, top left, center center;
 		background-repeat: repeat, repeat, no-repeat;
 		background-size: auto, auto, cover;
@@ -2673,6 +2673,8 @@ input, select, textarea {
 
 			#banner {
 				padding: 6em 0;
+				background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner-1280.jpg");
+				background-size: cover;				
 			}
 
 				#banner .content {
@@ -2732,6 +2734,7 @@ input, select, textarea {
 
 			#banner {
 				padding: calc(14em + 44px) 0 14em 0;
+				background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner-980.jpg");				
 			}
 
 		/* Nav */
@@ -3056,6 +3059,7 @@ input, select, textarea {
 
 			#banner {
 				padding: calc(6em + 44px) 0 6em 0;
+				background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner-736.jpg");				
 			}
 
 				#banner .content {
